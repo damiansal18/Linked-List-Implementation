@@ -1,0 +1,3 @@
+﻿  Tester.cpp
+C:\Users\Damia\source\repos\LL\LL\Tester.cpp(111,6): warning C4101: 'x': unreferenced local variable
+  LL.vcxproj -> C:\Users\Damia\source\repos\LL\Debug\LL.exe
