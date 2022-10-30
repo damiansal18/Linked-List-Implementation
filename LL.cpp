@@ -72,6 +72,8 @@ void LL::displayList()
 
 void LL::addFront(el_t newElem)
 {
+	
+	
 	if (isEmpty()) // if list is empty.
 	{
 		Front = new Node; // a node for the 'Front' pointer is allocated.
@@ -94,6 +96,7 @@ void LL::addFront(el_t newElem)
 
 		cout << endl << " " << newElem << " added to front of list." << endl;
 	}
+	
 }
 
 void LL::addRear(el_t newElem)
@@ -227,6 +230,7 @@ void LL::insertAt(int pos, el_t newNode)
 	if ((pos > count + 1) || pos < 1)
 	{
 			throw Overflow(); 
+			
  	}
 	else if (pos == 1 )
 	{

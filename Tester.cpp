@@ -104,7 +104,7 @@ void caseTwo()
 		cerr << "Error: Out of Range. " << endl;
 	}
 }
-/*
+
 void caseThree()
 {
 	LL listThree;
@@ -115,9 +115,18 @@ void caseThree()
 	listThree.addFront(4);
 	listThree.addRear(3);
 	listThree.addRear(1);
-	listThree.insertAt(6, 2);
+	
+	try
+	{
+		listThree.insertAt(6, 2);
+	}
+	catch(LL::Overflow)
+	{
+		cerr << "Error: Out of Range. " << endl;
+	}
+
 	listThree.displayList();
-	listThree.insertAt(3, 1);
+	
 
 	LL copy(listThree);
 	copy.displayList();
@@ -130,7 +139,7 @@ void caseThree()
 
 
 }
-*/
+
 int main()
 {
 	int choice;
@@ -141,7 +150,7 @@ int main()
 		cout << "***MENU***" << endl << endl;
 		cout << "Case 1 ( 1 ) " << endl;
 		cout << "Case 2 ( 2 ) " << endl;
-		//cout << "Case 3 ( 3 ) " << endl;
+		cout << "Case 3 ( 3 ) " << endl;
 		cout << "Enter ( 0 ) to quit." << endl;
 		
 		cout << ">";
@@ -153,8 +162,8 @@ int main()
 			break;
 		case 2: caseTwo();
 			break;
-		//case 3: caseThree();
-			//break;
+		case 3: caseThree();
+			break;
 		}
 	} while (choice != 0);
 }
