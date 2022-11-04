@@ -1,0 +1,168 @@
+
+List Tests
+***MENU***
+
+Case 1 ( 1 )
+Case 2 ( 2 )
+Case 3 ( 3 )
+Enter ( 0 ) to quit.
+>1
+Case 1: Basic Functionality
+
+List initialized...
+
+List is currently empty.
+
+List is empty , cannot display ..
+
+ 1 added to front of the empty list.
+
+ 2 added to rear of list.
+
+ 4 added to rear of list.
+
+ Inserting : 3 ... at position 3 in the list.
+
+..[ 1  2  3  4 ]
+
+ Deleting the front element in the list : 1
+
+ Deleting the rear element in the list : 4
+
+ Deleting : 3 ... from position 2 in the list.
+
+..[ 2 ]
+
+ Deleting the front & only element in the list : 2
+
+..Deconstructing list..
+
+List Tests
+***MENU***
+
+Case 1 ( 1 )
+Case 2 ( 2 )
+Case 3 ( 3 )
+Enter ( 0 ) to quit.
+>2
+
+List initialized...
+
+List is currently empty.
+Error: Underflow, List is empty.
+Error: Underflow, List is empty.
+
+List is empty , cannot display ..
+
+ 4 added to front of the empty list.
+
+ 3 added to rear of list.
+
+ 1 added to rear of list.
+
+ Inserting : 2 ... at position 3 in the list.
+
+..[ 4  3  2  1 ]
+
+ Inserting : 1 ... at position 3 in the list.
+
+ 5 added to front of list.
+
+..[ 5  4  3  1  2  1 ]
+
+ Deleting : 4 ... from position 2 in the list.
+
+ Deleting : 1 ... from position 3 in the list.
+
+..[ 5  3  2  1 ]
+Error: Out of Range.
+Error: Out of Range.
+
+ Deleting the front element in the list : 5
+
+ Deleting the front element in the list : 3
+
+ Deleting the front element in the list : 2
+
+ Deleting the front & only element in the list : 1
+
+..Deconstructing list..
+
+List Tests
+***MENU***
+
+Case 1 ( 1 )
+Case 2 ( 2 )
+Case 3 ( 3 )
+Enter ( 0 ) to quit.
+>3
+
+List initialized...
+
+List is empty , cannot display ..
+
+ 4 added to front of the empty list.
+
+ 3 added to rear of list.
+
+ 1 added to rear of list.
+Error: Out of Range.
+
+..[ 4  3  1 ]
+
+ 4 added to rear of the empty list.
+
+ 3 added to rear of list.
+
+ 1 added to rear of list.
+
+..[ 4  3  1 ]
+
+ 1 added to front of list.
+
+..[ 1  4  3  1 ]
+
+ Deleting the rear element in the list : 1
+
+ Deleting the rear element in the list : 3
+
+ Deleting the rear & only element in the list : 4
+
+ 1 added to rear of the empty list.
+
+ 4 added to rear of list.
+
+ 3 added to rear of list.
+
+ 1 added to rear of list.
+
+..[ 1  4  3  1 ]
+
+ Deleting the front element in the list : 1
+
+ Deleting the front element in the list : 4
+
+ Deleting the front element in the list : 3
+
+ Deleting the front & only element in the list : 1
+
+..Deconstructing list..
+
+ Deleting the front element in the list : 1
+
+ Deleting the front element in the list : 4
+
+ Deleting the front element in the list : 3
+
+ Deleting the front & only element in the list : 1
+
+..Deconstructing list..
+
+List Tests
+***MENU***
+
+Case 1 ( 1 )
+Case 2 ( 2 )
+Case 3 ( 3 )
+Enter ( 0 ) to quit.
+>
